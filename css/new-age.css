@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #007bff;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #007bff;
 }
 
 hr {
@@ -48,7 +48,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2 {
@@ -63,9 +63,6 @@ div.col-lg-12.my-auto{
   margin-bottom: 0rem!important;
 }
 
-h3{
-  margin-bottom: 3rem;
-}
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -170,7 +167,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/intro-bgCR.jpg")
+  background: url("../img/SublimeScreenshot.png")
 }
 
 header.masthead .header-content {
@@ -249,7 +246,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 section.features .section-heading h2 {
@@ -267,10 +264,10 @@ section.features .feature-item {
 }
 
 section.features .device-container {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   section.features .device-container {
     margin-bottom: 0;
   }
@@ -339,10 +336,6 @@ section.contact {
   text-align: center;
 }
 
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
 
 section.contact h2 i {
   color: #dd4b39;
@@ -362,27 +355,27 @@ section.contact ul.list-social li a {
   border-radius: 100%;
 }
 
-section.contact ul.list-social li.social-twitter a {
+section.contact ul.list-social li.social-linkedin a {
   background-color: #1da1f2;
 }
 
-section.contact ul.list-social li.social-twitter a:hover {
+section.contact ul.list-social li.social-linkedin a:hover {
   background-color: #0d95e8;
 }
 
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
+section.contact ul.list-social li.social-github a {
+  background-color: #222222;
 }
 
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
+section.contact ul.list-social li.social-github a:hover {
+  background-color: #222222;
 }
 
-section.contact ul.list-social li.social-google-plus a {
+section.contact ul.list-social li.social-google-play a {
   background-color: #dd4b39;
 }
 
-section.contact ul.list-social li.social-google-plus a:hover {
+section.contact ul.list-social li.social-google-play a:hover {
   background-color: #d73925;
 }
 
